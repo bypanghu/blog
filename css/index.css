@@ -3015,13 +3015,6 @@ blockquote footer cite:before {
   -moz-background-size: cover;
   background-size: cover;
 }
-#footer:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
-}
 #footer-wrap {
   position: relative;
   padding: 2rem 1rem;
@@ -5493,6 +5486,10 @@ blockquote.pullquote.right {
 }
 [data-theme='dark'] #operare_artitalk .c2 {
   background: #121212;
+}
+[data-theme='dark'] .insertInframe {
+  width: 100%;
+  height: 120px;
 }
 [data-theme='light'] .read-mode {
   --font-color: #4c4948;
